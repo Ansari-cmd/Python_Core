@@ -52,3 +52,35 @@ if is_online:
 else:
     print(" You are offline")
 
+
+
+# Typecasting = the process of converting a variable from one type to another
+#                str(), int(), float(), bool()
+
+name = "Danish Ansari"
+age = 25
+gpa = 3.5
+is_student = True
+
+print(type(name))
+print(type(age))
+print(type(gpa))
+print(type(is_student))
+
+gpa = int(gpa)
+print(gpa, type(gpa))
+
+age = float(age)
+print(age, type(age))
+
+
+age = str(age)
+age+="1"
+print(age,type(age))
+
+name = bool(name)
+print(name) # True
+name = "" 
+name = bool(name)
+print(name)  # False
+
