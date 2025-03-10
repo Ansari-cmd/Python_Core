@@ -30,6 +30,25 @@ print(f"You ran {distance}km")
 
 # Boolean
 
-is_student=True
+is_student=False
 
 print(f"Are you a student?: {is_student}")
+
+if is_student:
+    print("You are a student ")
+else:
+    print("you are not a student")
+
+for_sale = True
+if for_sale:
+    print("That item is for sale")
+else:
+    print("That item is not available")
+
+is_online = True
+
+if is_online:
+    print("You are online")
+else:
+    print(" You are offline")
+
