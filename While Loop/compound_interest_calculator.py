@@ -22,7 +22,7 @@ while time <= 0:
 total = principle * pow((1 + rate/100), time)
 print(f"Balance after {time} year/s: ${total:.2f}")
 
-Another Way
+#Another Way
 
 principle = 0
 rate = 0
