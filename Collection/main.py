@@ -21,9 +21,9 @@ fruits = ["apple", "orange", "banana", "coconut"]
 # fruits.reverse()
 # fruits.clear()
 
-print(fruits.index("apple"))
-print(fruits.count("banana"))
-print(fruits)
+# print(fruits.index("apple"))
+# print(fruits.count("banana"))
+# print(fruits)
 
 
 
@@ -37,11 +37,36 @@ print(fruits)
 #========================================
 
 
-fruits = {"apple", "orange", "banana", "coconut"}
+# fruits = {"apple", "orange", "banana", "coconut", "coconut"}
 # print(dir(fruits))
 # print(help(fruits))
 # print(len(fruits))
 # print("pineapple" in fruits)
 
-fruits.add("pineapple")
+# fruits.add("pineapple")
+# fruits.remove("apple")
+# fruits.pop()
+#fruits.clear()
 
+# print(fruits)
+
+
+#=======================================
+
+# Tuple ()
+#================================
+
+fruits = ("apple", "orange", "banana", "coconut", "coconut")
+
+# print(dir(fruits))
+# print(help(fruits))
+# print(len(fruits))
+# print("pineapple" in fruits)
+
+print(fruits.index("apple"))
+print(fruits.count("coconut"))
+
+print(fruits)
+
+for fruit in fruits:
+    print(fruit)
